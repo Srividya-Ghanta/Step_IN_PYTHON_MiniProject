@@ -3,4 +3,4 @@
 
 int sum(int number1, int number2);
 int square(int number);
-#endif
+#endif /* __HEADER_H__*/
