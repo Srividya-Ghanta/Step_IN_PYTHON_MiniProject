@@ -45,7 +45,8 @@ The console is the interface being used. Once the program started, it shall disp
  |HR_4|The user should be prmpted to enter the input on every interation|Techinal|TBI|
  |HR_5|The result should be the calculated value of all the oprations given by user|Techinal|TBI|
  |HR_6|Division by zero should be detected|Scenario|TBI|
- |HR_7|Calculations done in previous executions have to be maintaned in memory|Teachnical|FUTURE|
+ |HR_7|Only decimal of floating values have to be taken as inputs|Scenario|TBI|
+ |HR_8|Calculations done in previous executions have to be maintaned in memory|Teachnical|FUTURE|
 
  # Low-Level Requirements
 
@@ -57,4 +58,5 @@ The console is the interface being used. Once the program started, it shall disp
  |LR_4|A while loop have to be defoned to rum until "=" operator is identified|Technical|HR_4|TBI|
  |LR_5|A global variable have to be declared to hold the modified result every time an operation is performed|Technical|HR_5|TBI|
  |LR_6|A Testcase have to be declared to throw an error on occurence of division by zero|Scenario|HR_6|TBI|
- |LR_7|A file have to be maintained that can be read when previous calculations are required|Technical|HR-7|FUTURE|
+ |LR_7|A conditional statement have to be defined to check the operands|Scenario|HR_7|TBI|
+ |LR_8|A file have to be maintained that can be read when previous calculations are required|Technical|HR-8|FUTURE|
