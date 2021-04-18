@@ -29,7 +29,7 @@ Calculator is the best friend for all of us when it comes to solving any mathema
  ## 3. Output
  * Display the calculated result in the terminal.
 
- # Function Used in the Application
+ # Functions Used in the Application
 
  # SWOT Analysis
 
