@@ -36,6 +36,7 @@ The console is the interface being used. Once the program started, it shall disp
  ![](SWOT.png)
 
  # High-Level Requirements
+
  |ID|Description|Domain|Status|
  |--|-----------|------|------|
  |HR_1|Input Should be taken from the console|Technical|TBI|
@@ -45,4 +46,15 @@ The console is the interface being used. Once the program started, it shall disp
  |HR_5|The result should be the calculated value of all the oprations given by user|Techinal|TBI|
  |HR_6|Division by zero should be detected|Scenario|TBI|
  |HR_7|Calculations done in previous executions have to be maintaned in memory|Teachnical|FUTURE|
+
  # Low-Level Requirements
+
+ |ID|Description|Domain|HR_ID|Status|
+ |--|-----------|------|-----|------|
+ |LR_1|A function to take input from the CLI have to be defined|technical|HR_1|TBI|
+ |LR_2|A function to print the final result to the CLI have to be defined|Technical|HR_2|TBI|
+ |LR_3|A conditional statement to match the "=" operator have to be defined|Technical|HR_3|TBI|
+ |LR_4|A while loop have to be defoned to rum until "=" operator is identified|Technical|HR_4|TBI|
+ |LR_5|A global variable have to be declared to hold the modified result every time an operation is performed|Technical|HR_5|TBI|
+ |LR_6|A Testcase have to be declared to throw an error on occurence of division by zero|Scenario|HR_6|TBI|
+ |LR_7|A file have to be maintained that can be read when previous calculations are required|Technical|HR-7|FUTURE|
