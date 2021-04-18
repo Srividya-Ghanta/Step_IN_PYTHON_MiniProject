@@ -36,4 +36,13 @@ The console is the interface being used. Once the program started, it shall disp
  ![](SWOT.png)
 
  # High-Level Requirements
+ |ID|Description|Domain|Status|
+ |--|-----------|------|------|
+ |HR_1|Input Should be taken from the console|Technical|TBI|
+ |HR_2|Output should be displayed in the console|Technical|TBI|
+ |HR_3|Termianate execution on noticing "=" oprator as input|Techinal|TBI|
+ |HR_4|The user should be prmpted to enter the input on every interation|Techinal|TBI|
+ |HR_5|The result should be the calculated value of all the oprations given by user|Techinal|TBI|
+ |HR_6|Division by zero should be detected|Scenario|TBI|
+ |HR_7|Calculations done in previous executions have to be maintaned in memory|Teachnical|FUTURE|
  # Low-Level Requirements
