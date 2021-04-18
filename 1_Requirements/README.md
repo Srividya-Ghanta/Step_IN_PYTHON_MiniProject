@@ -16,7 +16,7 @@ The console is the interface being used. Once the program started, it shall disp
 # Data flow Diagram
  The data flow diagram which identifies the major functions required of the calculator program and shows their relationship to each other.
 
- ![] (dataflow.jpg)
+ ![](dataflow.jpg)
 
  # Major Operations Performed
 
@@ -33,7 +33,7 @@ The console is the interface being used. Once the program started, it shall disp
 
  # SWOT Analysis
 
- ![] (SWOT.png)
+ ![](SWOT.png)
 
  # High-Level Requirements
  # Low-Level Requirements
