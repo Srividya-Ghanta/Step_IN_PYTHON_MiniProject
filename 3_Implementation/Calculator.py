@@ -1,4 +1,4 @@
-
+# Declaration of global variables
 global number_of_operations
 global result
 number_of_operations = 0
