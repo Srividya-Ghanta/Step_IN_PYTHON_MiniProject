@@ -120,6 +120,9 @@ def operation():
         performMultiplication()
     elif operator == '=':
         printResult()
+    else:
+        print("Please enter a valid operator")
+        number_of_operations -= 1
     number_of_operations += 1
     return
 
