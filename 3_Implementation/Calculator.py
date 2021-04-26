@@ -12,8 +12,22 @@ result = 0
 def printResult():
     global result
     print("the final result is:")
-    print(result)
+    print(str(result))
+    with open("Memory.txt","w") as file:
+        file.write(str(result))
     exit(0)
+
+''' @brief: Function to retrieve the result obtained in previous execution
+    @Input: None
+    @output: None
+'''
+
+def retrivePrevious():
+    global result
+    with open("Memory.txt", "r") as file:
+        result = int(file.read())
+    print("The previously calculated value is",result)
+    return
 
 ''' @brief: Function to perform Multipication operation
     @input: None
@@ -120,6 +134,8 @@ def operation():
         performMultiplication()
     elif operator == '=':
         printResult()
+    elif operator == 'M':
+        retrivePrevious()
     else:
         print("Please enter a valid operator")
         number_of_operations -= 1
