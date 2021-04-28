@@ -12,21 +12,25 @@ class TestCalc(unittest.TestCase):
         res = CalculatorSimple.performSubtraction(5, 4)
         self.assertEqual(res,1)
 
+
     def test_FloatDivision(self):
         res = CalculatorSimple.performFloatDivision(24, 5)
         self.assertEqual(res,4.80)
+        self.assertRaises(ZeroDivisionError, CalculatorSimple.performFloatDivision, 10, 0)
 
     def test_IntegerDivision(self):
         res = CalculatorSimple.performIntegerDivision(24, 5)
         self.assertEqual(res,4)
         res = CalculatorSimple.performIntegerDivision(80,4)
         self.assertEqual(res,20)
+        self.assertRaises(ZeroDivisionError, CalculatorSimple.performFloatDivision, 10, 0)
 
     def test_Moduluos(self):
         res = CalculatorSimple.performModulous(80, 5)
         self.assertEqual(res,0)
         res = CalculatorSimple.performModulous(5, 3)
         self.assertEqual(res, 2)
+        self.assertRaises(ZeroDivisionError, CalculatorSimple.performModulous, 10, 0)
     def test_Multiplication(self):
         res = CalculatorSimple.performMultiplication(3, 6)
         self.assertEqual(res,18)
@@ -37,7 +41,8 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(res,81)
         res = CalculatorSimple.performPowerOperation(4, 1/2)
         self.assertEqual(res, 2)
-        
+        self.assertRaises(ValueError, CalculatorSimple.performPowerOperation, 5, -2)
+
 if __name__ == '__main__':
     unittest.main()
     
