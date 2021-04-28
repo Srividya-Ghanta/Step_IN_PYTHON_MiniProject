@@ -1,5 +1,5 @@
 import unittest
 import pytest
-import Calculator
+from CalculatorSimple import *
 def test_printResult():
     pass
