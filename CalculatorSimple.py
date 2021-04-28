@@ -73,6 +73,15 @@ def performPowerOperation(base, exponent):
     return (base ** exponent)
 
 '''
+@Brief: Function to print the final result
+@Parameter : integer result value
+@return: None
+'''
+def printResult(result):
+    print("The result of the operation is:",result)
+    return
+
+'''
 @Brief: Function to take the operator as the input
 @Parameter : None
 @return: None
@@ -113,7 +122,7 @@ def operation():
     elif operator == "E":
         exit()
     if operator != "M": # After every calculation store the result in a file
-        print("The result of the operation is:",result)
+        printResult(result)
         with open("Memory.txt","w") as file:
             file.write(str(result))
     return
