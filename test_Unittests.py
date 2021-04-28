@@ -1,3 +1,5 @@
 import unittest
-def test_printResult(self):
+import pytest
+import Calculator
+def test_printResult():
     pass
