@@ -41,7 +41,6 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(res,81)
         res = CalculatorSimple.performPowerOperation(4, 1/2)
         self.assertEqual(res, 2)
-        self.assertRaises(ValueError, CalculatorSimple.performPowerOperation, 5, -2)
 
 if __name__ == '__main__':
     unittest.main()
