@@ -12,3 +12,9 @@ Calculator is the best friend for all of us when it comes to solving any mathema
 
 ## User Interface
 * The console is the interface being used. Once the program started, it shall display a prmpt >>.The user can then type a sequence of numbers and operators similar to regualr calculator. The program will display the calculated answer to the entered problem in the line following the input line.
+
+## Usecase Diagram
+![](usecase.png)
+
+## Component Diagram
+![](Component.png)
