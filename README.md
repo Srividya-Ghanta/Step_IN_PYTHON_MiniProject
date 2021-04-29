@@ -17,4 +17,4 @@ Calculator is the best friend for all of us when it comes to solving any mathema
 ![](usecase.png)
 
 ## Component Diagram
-![](Component.png)
+![](Component.jpg)
